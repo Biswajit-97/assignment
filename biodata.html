@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<body>
+    <h1>My Bio data</h1><br>
+    <fieldset>
+        <legend>Personal Information</legend><br>
+        <label for="firstname">FirstName</label>
+        <input type="text" id="firstname" placeholder="firstname">
+        <label for="lastname">lastname</label>
+        <input type="text" id="lastname" placeholder="lastname"><br><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="birthday">date of Birth:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+        <label for="phone">phone :</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91">
+        <br><br>
+        <label for="height">height:</label>
+        <input type="number" id="fname" placeholder="height in feet">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Personal Information</legend><br>
+        <label for="schoolname">school name</label>
+        <input type="text" id="schoolname" placeholder="school name"><br> <br>
+        <label for="class">class</label>
+        <input type="text" id="class" placeholder="class"><br> <br>
+        <label for="stream">Choose stream:</label>
+
+        <select name="stream" id="stream">
+            <option value="Computer">Computer networt</option>
+            <option value="digital electronics">digital electronics</option>
+            <option value="software engeniering">software engeniering</option>
+            <option value="frontend ">frontend</option>
+        </select>
+        <br><br>
+        <label for="marksheet">marksheet</label>
+        <input type="file" id="myFile" name="filename">
+        
+    </fieldset>
+
+    <br> <br>
+    <input type="submit" placeholder="submit" name="submit">
+</body>
+</html>
